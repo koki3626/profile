@@ -14,6 +14,7 @@
                         @endforeach
                     </ul>
                     @endif
+                    <input type="hidden" name="id" value="{{ $profile_form->id }}">
                     <div class="form-group row">
                         <label class="col-md-2">氏名</label>
                         <div class="col-md-10">
